@@ -2,7 +2,7 @@
 
 # Research Title: Optimizing Modular Construction Design for Post-Disaster Housing
 
-![Logo](C:\Users\trand\Documents\GitHub\desktop-tutorial\Logo.png)
+![Logo](Logo.png)
 
 ![Screenshot](Image.png)
 
