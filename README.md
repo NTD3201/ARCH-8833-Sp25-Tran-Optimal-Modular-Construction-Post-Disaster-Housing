@@ -53,7 +53,7 @@ Natural disasters such as wildfires, earthquakes, and hurricanes displace millio
 - Energy-efficient configurations significantly reduce **operational carbon** (~2.05 kgCO₂e/m²/year).
 - Pareto-optimal designs offer a **balanced solution** across all objectives.
 
-![Screenshot](Image.png)
+![Screenshot](Pareto.png)
 
 ## 📂 Repository Structure
 
