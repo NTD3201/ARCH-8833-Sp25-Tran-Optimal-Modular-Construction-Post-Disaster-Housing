@@ -4,9 +4,9 @@
 
 ![Logo](C:\Users\trand\Documents\GitHub\desktop-tutorial\Logo.png)
 
-![Screenshot](docs/assets/screenshot-pareto-front.png) <!-- Replace with actual screenshot path -->
+![Screenshot](C:\Users\trand\Documents\GitHub\desktop-tutorial\Image.png)
 
-## 📘 Project Overview
+## Project Overview
 
 This research explores **energy-efficient, resilient, and sustainable modular housing solutions** in post-disaster contexts. It focuses on the use of **multi-objective optimization (MOO)**, **parametric design tools**, and **life cycle assessment (LCA)** to evaluate trade-offs between environmental impact, cost, construction time, and functional performance.
 
