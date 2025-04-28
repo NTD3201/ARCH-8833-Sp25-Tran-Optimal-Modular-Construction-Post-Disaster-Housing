@@ -4,7 +4,7 @@
 
 ![Logo](C:\Users\trand\Documents\GitHub\desktop-tutorial\Logo.png)
 
-![Screenshot](C:\Users\trand\Documents\GitHub\desktop-tutorial\Image.png)
+![Screenshot](Image.png)
 
 ## Project Overview
 
