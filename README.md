@@ -15,19 +15,17 @@ Natural disasters such as wildfires, earthquakes, and hurricanes displace millio
 ## 🎯 Research Goals
 
 - Assess the **environmental sustainability** of modular construction in post-disaster housing.
-- Utilize **simulation tools** (Rhino + Grasshopper + EnergyPlus) to optimize designs.
+- Utilize **simulation tools** (Rhino + Grasshopper + Other tools) to optimize designs.
 - Integrate **LCA** and **multi-objective optimization (NSGA-II)** to evaluate housing units.
 - Develop a **decision-support framework** using AHP + Pareto Analysis.
 
-## 🧰 Tools and Technologies
+## ❓ Research Questions
 
-| Tool/Technology | Purpose |
-|----------------|---------|
-| Rhino 8 + Grasshopper | Parametric modeling |
-| EnergyPlus + Honeybee | Energy simulation |
-| Python (DEAP, Matplotlib) | Multi-objective optimization |
-| AHP | Criteria prioritization |
-| Tally + Revit | Life Cycle Assessment (LCA) |
+1. How can modular construction improve sustainability in post-disaster housing?
+2. What are the key environmental indicators to assess?
+3. How effective are simulation tools in optimizing performance?
+
+---
 
 ## 🧪 Methodology
 
@@ -46,6 +44,28 @@ Natural disasters such as wildfires, earthquakes, and hurricanes displace millio
 5. **Visualize & Select Optimal Designs**  
    → Prioritize final designs based on AHP weights.
 
+## ⚙️ Tools and Technologies
+
+| Tool | Purpose |
+|------|---------|
+| Rhino 8 + Grasshopper | Parametric modeling |
+| Ladybug + Honeybee | Energy simulation |
+| EnergyPlus | Climate-adaptive energy modeling |
+| DEAP (Python) | Evolutionary optimization (NSGA-II) |
+| Tally + Revit | Life Cycle Assessment |
+| AHP | Decision-making framework |
+
+---
+
+## 📈 Key Results
+
+- **Modular designs reduced embodied carbon by 20–35%** over traditional units.
+- **Operational energy** (EUI) achieved 154.04 kWh/m²/year.
+- Optimal units reached **2.05 kgCO₂e/m²/year** operational carbon.
+- **Pareto-optimal designs** revealed trade-offs and clustering around performance-cost thresholds.
+- **Top design**: Cost-effective, resilient, and prefabricated with rapid deployment (< 43 days).
+
+---
 ## 🔍 Key Findings
 
 - Trade-offs are inevitable, but **data-driven design** helps navigate them.
@@ -55,34 +75,46 @@ Natural disasters such as wildfires, earthquakes, and hurricanes displace millio
 
 ![Screenshot](Pareto.png)
 
+## 📊 Findings Snapshot
+
+| Module Type | Embodied Carbon (kgCO₂e) | Material Mass (kg) | EUI (kWh/m²/yr) | Op. Carbon (kgCO₂e/m²/yr) |
+|-------------|---------------------------|---------------------|------------------|-----------------------------|
+| Type 1 Wet  | 2,562.60                  | 5,633.73            | 154.04           | 2.05                        |
+| Type 2 Dry  | 2,594.37                  | 4,722.51            | ~Similar         | ~Similar                    |
+| Type 3 King | 3,944.57                  | 4,799.99            | Higher           | Higher                      |
+| Type 4 Queen| 3,302.93                  | 6,889.86            | Higher           | Higher                      |
+
+---
 ## 📂 Repository Structure
 
 📂 Repository Structure
-├── data/                  # Raw and processed data
-├── models/                # Optimization scripts and LCA configurations
-├── docs/                  # Presentation, images, and supplementary materials
-├── src/                   # Python scripts (AHP, MOO, Energy Simulation)
-├── results/               # Pareto fronts, EUI results, selection outputs
-├── README.md
+├── data/ # Raw and processed data
+├── models/ # Optimization scripts and LCA configurations
+├── docs/ # Presentation, images, and supplementary materials
+├── src/ # Python scripts (AHP, MOO, Energy Simulation)
+├── results/ # Pareto fronts, EUI results, selection outputs
+└── README.md
 
 ## 👤 Author
 
-**Tran Nguyen**  
+**Tran Duong Nguyen**  
 Ph.D. Student | Georgia Tech  
 [LinkedIn](https://www.linkedin.com/feed/?trk=404_page) • [ResearchGate](https://www.researchgate.net/profile/Tran-Duong-Nguyen/research)
 
 ## 📚 Related Papers & References
 
-- Nguyen, T. (2025). _Choosing the Optimal Modular Construction Design in Post-Disaster Housing_. Final Project, ARCH_8833.
-- Shahzad, W. et al. (2022). _Modular Offsite Construction for Emergency Situations: A New Zealand Study_. Buildings.
-- Rocha, P. et al. (2023). _Impacts of Prefabrication in the Building Construction Industry_. Encyclopedia.
-- - ...
-
+- Nguyen, T. (2025). _Post-Disaster Housing: Analyzing Environmental Sustainability of Modular Construction_. ARCH-8833, Georgia Tech.
+- Shahzad, W. et al. (2022). _Modular Offsite Construction for Emergency Situations_. Buildings.
+- Müller, A. et al. (2024). _Post-Disaster Modular Strategies and Resilience_. Int. J. Resilient Cities.
+- Gupta, R., Kim, Y., & Chan, C. (2022). _AI and Simulation for Post-Disaster Housing_. Smart Cities Journal.
+- 
+---
 ## 🚀 Future Work
 
-- Integrate **blockchain** for supply chain transparency.
-- Apply **AI-based generative design** to refine module assembly.
-- Extend framework for **multi-hazard resilience**.
+- Test in multiple **climate zones** with passive strategies
+- Extend to **digital twin** applications for real-time monitoring
+- Explore **blockchain** for modular supply chains
+- Integrate **occupant behavior models** in energy simulation
 
 ---
 
