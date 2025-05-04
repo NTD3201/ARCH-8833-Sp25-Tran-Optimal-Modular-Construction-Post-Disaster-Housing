@@ -118,4 +118,4 @@ Ph.D. Student | Georgia Tech
 
 ---
 
-_This project is part of the Spring 2025 ARCH_8833 coursework at Georgia Tech._
+_This project is part of the Spring 2025 ARCH_8833 coursework at Georgia Tech under the guidance of Dr. Patrick Kastner_
